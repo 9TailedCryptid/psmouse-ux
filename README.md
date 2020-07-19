@@ -3,7 +3,8 @@ psmouse-ux
 
 The Sony VAIO UX has an Alps DualPoint Stick that has serious tap sensitivity issues in Linux. This repository contains a patch for the `psmouse` kernel module to fix this issue. Tap to click sensitivity is heavily toned down, preventing the mouse from making random clicks everywhere.
 
-This version has also been patched to work with Linux kernels > 3.5 (based on a similar procedure by [sphillips at LinuxSagas](http://linuxsagas.digitaleagle.net/2013/10/14/ubuntu-13-04-finally-fixing-my-touchpad/)), and tested on Lubuntu 13.10.
+~~This version has also been patched to work with Linux kernels > 3.5 (based on a similar procedure by [sphillips at LinuxSagas](http://linuxsagas.digitaleagle.net/2013/10/14/ubuntu-13-04-finally-fixing-my-touchpad/)), and tested on Lubuntu 13.10.~~
+This version has been patched to work with more recent Linux kernels. Tested on Linux 5.7.9 and Void Linux.
 
 Instructions
 ------------
